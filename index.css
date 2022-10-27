@@ -1,102 +1,119 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    width: 375px;
-    font-family:'Poppins', sans-serif;
+  width: 375px;
+  font-family: 'Poppins', sans-serif;
 }
-/*****NAVIGATION BAR******/
+
+/***** NAVIGATION BAR ******/
+
 nav {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
+
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 p.logo {
-    color: rgb(53, 53, 100);
-    font-size: larger;
+  color: rgb(53, 53, 100);
+  font-size: larger;
 }
+
 span {
-    color: blue;
+  color: blue;
 }
+
 .headline {
-    position: relative;
+  position: relative;
 }
 
-
-/******HEADLINE SECTION*******/
+/****** HEADLINE SECTION *******/
 
 .frames {
-    z-index: -1;
+  z-index: -1;
 }
+
 .top-right-frame {
-    position: absolute;
-    top: 2%;
-    right: -3%;
-    
+  position: absolute;
+  top: 2%;
+  right: -3%;   
 }
+
 .middle-right-frame {
-    position: absolute;
-    top: 18%;
-    right: 0;
+  position: absolute;
+  top: 18%;
+  right: 0;
 }
+
 .bottom-right-frame {
-    position: absolute;
-    top: 95%;
-    right: 0;
+  position: absolute;
+  top: 95%;
+  right: 0;
 }
+
 .middle-frame {
-    position: absolute;
-    top: 75%;
-    right: 60%;
+  position: absolute;
+  top: 75%;
+  right: 60%;
 }
+
 .left-bottom {
-    position: absolute;
-    top: 72%;
+  position: absolute;
+  top: 72%;
 }
+
 .transparent-frame {
-    position: absolute;
-    top: 15%;
-    left: 2%;
+  position: absolute;
+  top: 15%;
+  left: 2%;
 }
+
 .background-strokes {
-    z-index: -2;
+  z-index: -2;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 10%;
 }
+
 .text-container h1 {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-size: xx-large;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
 }
+
 .text-container .blueblack-header {
-    color: rgb(40, 40, 83);
+  color: rgb(40, 40, 83);
 }
+
 .text-container .green-header {
-    margin-bottom: 40px;
-    color: rgb(107, 146, 107);
+  margin-bottom: 40px;
+  color: rgb(107, 146, 107);
 }
+
 .supporting-text p{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    font-size: large;
-    color: rgb(40, 40, 83);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+  color: rgb(40, 40, 83);
 }
+
 .social-media-icons {
-    position: absolute;
-    top: 85%;
-    left: 25%;
+  position: absolute;
+  top: 85%;
+  left: 25%;
 }
