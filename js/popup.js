@@ -181,3 +181,33 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+const nameData = document.getElementById('name');
+const emailData = document.getElementById('email');
+const storeMessage = document.getElementById('msg');
+
+function saveTolStorage() {
+  const data = {
+    name: nameData.value,
+    email: emailData.value,
+    message: storeMessage.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+
+nameData.addEventListener('input', saveTolStorage);
+emailData.addEventListener('input', saveTolStorage);
+storeMessage.addEventListener('input', saveTolStorage);
+
+window.addEventListener('load', () => {
+  const dataString = localStorage.getItem('formData');
+
+  if (dataString) {
+    const data = JSON.parse(dataString);
+
+    nameData.value = data.name;
+    emailData.value = data.email;
+    storeMessage.value = data.message;
+  }
+});
