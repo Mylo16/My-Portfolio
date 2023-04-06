@@ -32,6 +32,11 @@ HTML, CSS and linter files
 - **[ html and css template]**
 
 
+### Key Features <a name="key-features"></a>
+
+- Visit the page at https://mylo16.github.io/
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
