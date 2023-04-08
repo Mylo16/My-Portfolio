@@ -34,7 +34,7 @@ HTML, CSS and linter files
 
 ### 🚀Live Demo <a name="live-demo"></a>
 
-- Visit the page at https://mylo16.github.io/
+- Visit the page at https://mylo16.github.io/My-Portfolio
 
 
 
