@@ -1,45 +1,45 @@
 const Cards = [
   {
     img: {
-      src: 'assets/shapes/Rectangle_21_4.png',
+      src: 'assets/shapes/portfolio.png',
       alt: 'project one',
     },
     description: {
       name: 'Project name goes here',
       paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt explicabo, quidem dolorum totam consequuntur vitae consectetur, odio asperiores voluptas magni tenetur vel. Accusamus ut, minima quas aliquid consectetur cumque molestiae at modi fugit dolores ipsum, perferendis a quam saepe et doloremque quae reiciendis id, assumenda rerum. Fuga voluptatum earum aliquam?',
       technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-      live: '',
-      source: '',
+      live: '<a href = "https://mylo16.github.io/My-Portfolio">See Source</a>',
+      source: '<a href = "https://github.com/Mylo16/My-Portfolio">See Source</a>',
       btnText: 'See Project',
       key: 1,
     },
   },
   {
     img: {
-      src: 'assets/shapes/Rectangle_21.png',
+      src: 'assets/shapes/awesome.png',
       alt: 'project two',
     },
     description: {
       name: 'Project name goes here',
       paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt explicabo, quidem dolorum totam consequuntur vitae consectetur, odio asperiores voluptas magni tenetur vel. Accusamus ut, minima quas aliquid consectetur cumque molestiae at modi fugit dolores ipsum, perferendis a quam saepe et doloremque quae reiciendis id, assumenda rerum. Fuga voluptatum earum aliquam?',
       technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-      live: '',
-      source: '',
+      live: '<a href = "https://mylo16.github.io/Perfect-Books/">See Live</a>',
+      source: '<a href = "https://github.com/Mylo16/Perfect-Books">See Source</a>',
       btnText: 'See Project',
       key: 2,
     },
   },
   {
     img: {
-      src: 'assets/shapes/Rectangle_21_1.png',
+      src: 'assets/shapes/todolist.png',
       alt: 'project three',
     },
     description: {
       name: 'Project name goes here',
       paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt explicabo, quidem dolorum totam consequuntur vitae consectetur, odio asperiores voluptas magni tenetur vel. Accusamus ut, minima quas aliquid consectetur cumque molestiae at modi fugit dolores ipsum, perferendis a quam saepe et doloremque quae reiciendis id, assumenda rerum. Fuga voluptatum earum aliquam?',
       technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-      live: '',
-      source: '',
+      live: '<a href = "https://mylo16.github.io/learning-app/">See Live</a>',
+      source: '<a href = "https://github.com/Mylo16/My-to-do-list">See Source</a>',
       btnText: 'See Project',
       key: 3,
     },
