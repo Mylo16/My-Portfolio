@@ -588,7 +588,7 @@ footer {
   .desktop_nav_list_container li a {
     text-decoration: none;
     color: #1a2236;
-    font-size: 0.7em;
+    font-size: 1em;
     position: relative;
   }
 
@@ -625,6 +625,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
+    height: 93vh;
   }
 
   .left-col {
@@ -640,7 +641,6 @@ footer {
   .right-col {
     background-image: url(assets/shapes/image-geometry_1.png);
     background-size: cover;
-    height: 142vh;
   }
 
   .text-container {
@@ -648,20 +648,10 @@ footer {
     top: 2.5em;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .right-col {
-      height: 100vh;
-    }
-
-    .text-container {
-      top: -4em;
-    }
-  }
-
   .header-description {
     letter-spacing: -0.01em;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .headline-button {
@@ -691,7 +681,8 @@ footer {
     display: flex;
     position: relative;
     top: 5.5em;
-    justify-content: space-between;
+    height: 50vh;
+    gap: 7em;
   }
 
   .design_row1 .r1_col1 {
@@ -718,7 +709,7 @@ footer {
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 100%;
+    background-position: 100% 0;
   }
 
   .design_row1 .r1_col3 {
@@ -730,7 +721,8 @@ footer {
 
   .desktop-card2 {
     width: 60%;
-    top: 171%;
+    height: 300px;
+    top: 122%;
     right: 0%;
     position: absolute;
   }
@@ -742,11 +734,19 @@ footer {
     right: 0%;
   }
 
+  .project-img2 {
+    height: 300px;
+  }
+
   .desktop-card1 {
     width: 28%;
     position: absolute;
-    top: 250%;
+    top: 170%;
     right: 0;
+  }
+
+  .project-img1 {
+    height: 180px;
   }
 
   .desktop-card1 .project_description {
@@ -761,8 +761,13 @@ footer {
 
   .desktop-card3 {
     position: absolute;
-    top: 305%;
+    top: 213%;
     width: 54%;
+    height: 300px;
+  }
+
+  .project-img3 {
+    height: 300px;
   }
 
   .desktop-card3 .project_description {
@@ -774,10 +779,10 @@ footer {
   }
 
   .desktop-card4 {
-    width: 45%;
+    width: 35%;
     position: absolute;
-    top: 376%;
-    left: 26.9rem;
+    top: 275%;
+    left: 30rem;
   }
 
   .desktop-card4 .project_description {
@@ -806,15 +811,19 @@ footer {
   .design_row2 {
     display: flex;
     position: relative;
-    top: 19rem;
+    top: 2em;
     justify-content: space-between;
     height: 60vh;
   }
 
   .desktop-card5 {
     width: 38%;
-    top: 255%;
+    top: 170%;
     position: absolute;
+  }
+
+  .project-img5 {
+    height: 300px;
   }
 
   .desktop-card5:hover.desktop-card5 .project_description {
@@ -824,8 +833,12 @@ footer {
   .desktop-card6 {
     position: absolute;
     width: 28%;
-    top: 290%;
+    top: 200%;
     right: 0%;
+  }
+
+  .project-img6 {
+    height: 250px;
   }
 
   .desktop-card6:hover.desktop-card6 .project_description {
@@ -836,19 +849,20 @@ footer {
     width: 35%;
     left: 10.7rem;
     position: relative;
+    height: 300px;
   }
 
   .r2_col2 .image-geometry-2 {
     background-image: url(assets/shapes/image-geometry_2.png);
     width: 100%;
-    height: 90%;
-    background-size: cover;
+    height: 300px;
+    background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
   }
 
   .design_row2 .r2_col3 {
-    width: 35%;
+    width: 20%;
     position: relative;
   }
 
@@ -888,7 +902,6 @@ footer {
     margin-top: 8em;
     display: flex;
     position: relative;
-    top: 15rem;
     align-items: flex-end;
     justify-content: space-between;
   }
@@ -914,7 +927,7 @@ footer {
   .design_row4 {
     display: flex;
     position: relative;
-    top: 15rem;
+    top: -13em;
     justify-content: space-between;
   }
 
@@ -968,13 +981,13 @@ footer {
   #popup-window {
     border: 20px solid #1a2236;
     width: 95%;
-    height: 190vh;
+    height: 140vh;
     padding: 0;
     position: relative;
   }
 
   #popup-window .text-section p {
-    font-size: 0.6em;
+    font-size: 1em;
     position: relative;
   }
 
@@ -1034,7 +1047,11 @@ footer {
     padding: 0.2em;
   }
 
-  #popup-window .seeBtn:hover p {
+  .popup-footer > div > a {
+    font-size: 0.8em;
+  }
+
+  #popup-window .seeBtn:hover a {
     color: white;
   }
 
@@ -1067,10 +1084,6 @@ footer {
     display: flex;
     margin-top: 2em;
     justify-content: space-between;
-  }
-
-  .popup-footer > div > a {
-    font-size: 0.8em;
   }
 
   #popup-window #popup-close-btn {
@@ -1199,7 +1212,7 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     background-size: 100%;
-    bottom: -3em;
+    bottom: 0;
     right: 0;
   }
 

@@ -19,7 +19,7 @@ function generateCard(card) {
   return `
     <div class="card desktop-card${card.description.key}">
         <div class="img img${card.description.key}">
-            <img id="project_img${card.description.key}" src="${card.img.src}" alt="${card.img.alt}">
+            <img class = "project-img${card.description.key}" id="project_img${card.description.key}" src="${card.img.src}" alt="${card.img.alt}">
         </div>
         <div class="project_description">
             <h2 class="project_name">${card.description.name}</h2>
