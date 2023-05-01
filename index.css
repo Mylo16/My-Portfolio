@@ -1047,6 +1047,10 @@ footer {
     padding: 0.2em;
   }
 
+  .popup-footer > div > a {
+    font-size: 0.8em;
+  }
+
   #popup-window .seeBtn:hover a {
     color: white;
   }
@@ -1080,10 +1084,6 @@ footer {
     display: flex;
     margin-top: 2em;
     justify-content: space-between;
-  }
-
-  .popup-footer > div > a {
-    font-size: 0.8em;
   }
 
   #popup-window #popup-close-btn {
